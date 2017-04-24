@@ -8,17 +8,16 @@
 
 function factorio(n){
 
-	for(i = (n - 1); i > 0; i = i -1){
+	for(i = (n - 1); i > 0; i = i - 1){
 
 		n = n * i;
 
 	}
 
-	console.log(n);
+	return n;
 }
 
-factorio(prompt("Number please: "));
-
+console.log(factorio(parseInt(prompt("Number please: "))));
 
 </script>
 
